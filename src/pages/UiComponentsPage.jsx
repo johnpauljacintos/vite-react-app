@@ -59,7 +59,7 @@ export default function UiComponentsPage() {
             <Toggle 
               variant="peer-checked:bg-green-700 bg-gray-400"
             />
-            <label className="text-sm font-medium ml-2">Green</label>
+            <label className="text-sm font-medium ml-2">Regular</label>
           </div>
           <div className="flex items-center">
             <Toggle 
@@ -89,7 +89,7 @@ export default function UiComponentsPage() {
             <ToggleWithIcon 
               variant="peer-checked:bg-green-700 bg-gray-400"
             />
-            <label className="text-sm font-medium ml-2">Green</label>
+            <label className="text-sm font-medium ml-2">With icon</label>
           </div>
         </div>
       </div>
