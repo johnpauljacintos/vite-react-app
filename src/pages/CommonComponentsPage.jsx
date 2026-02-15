@@ -101,6 +101,13 @@ export default function CommonComponentsPage() {
           />
         </div>
       </div>
+      <hr className="my-5 border-gray-300" />
+      <div className="mt-5">
+        <h3 className="text-base font-semibold mb-3">Inputs</h3>
+        <div>
+          
+        </div>
+      </div>
       <div className="h-10"></div>
       <ConfirmModal
         open={isModalOpen}
