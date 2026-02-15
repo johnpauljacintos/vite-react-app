@@ -377,7 +377,7 @@ export default function DateTimePicker({
                       <div className="relative flex items-center justify-center w-full h-full">
                         <span>{day.getDate()}</span>
                         {isToday && !isSelected && (
-                          <span className="absolute -bottom-2 text-[14px] text-green-500">
+                          <span className="absolute -bottom-2 text-[14px] text-green-700">
                             ●
                           </span>
                         )}
@@ -525,7 +525,7 @@ export default function DateTimePicker({
                 <button
                   type="button"
                   onClick={applyTime}
-                  className="w-full mt-3 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-colors"
+                  className="w-full mt-3 py-2 bg-green-800 text-white text-sm font-medium rounded-lg hover:bg-green-900 transition-colors cursor-pointer"
                 >
                   Apply
                 </button>

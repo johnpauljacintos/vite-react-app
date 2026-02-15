@@ -332,7 +332,7 @@ export default function DatePicker({
                   <div className="relative flex items-center justify-center w-full h-full">
                     <span>{day.getDate()}</span>
                     {isToday && !isSelected && (
-                      <span className="absolute -bottom-2 text-[14px] text-green-500">
+                      <span className="absolute -bottom-2 text-[14px] text-green-700">
                         ●
                       </span>
                     )}
